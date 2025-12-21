@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    command: start --log trace --user root --pass root
+    ports:
+      - "8000:8000"
+    volumes:
+      - surrealdb_data:/mydata
+    environment:
+      - SURREAL_LOG=trace
+      - SURREAL_USER=root
+      - SURREAL_PASS=root
+    labels:
+      com.docker.desktop.extension: "true"
+      com.docker.desktop.extension.name: "SurrealDB"
+
+volumes:
+  surrealdb_data:

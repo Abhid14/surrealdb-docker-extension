@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "name": "SurrealDB",
+  "icon": "surrealdb.svg",
+  "ui": {
+    "dashboard-tab": {
+      "title": "SurrealDB",
+      "root": "/ui",
+      "src": "index.html"
+    }
+  },
+  "vm": {
+    "composefile": "docker-compose.yaml"
+  },
+  "host": {
+    "binaries": []
+  }
+}
