@@ -1,6 +1,6 @@
 # SurrealDB Docker Extension
 
-A Docker Desktop extension for managing SurrealDB databases with an intuitive UI.
+A community maintained Docker Desktop extension for spinning a SurrealDB instance with SurrealistUI right within Docker Desktop.
 
 <img width="1490" height="822" alt="image" src="https://github.com/user-attachments/assets/d35356cd-7a79-4c09-8652-00e862dd518c" />
 

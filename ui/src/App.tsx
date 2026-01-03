@@ -41,7 +41,7 @@ export function App() {
   };
 
   return (
-    <Container maxWidth="xl" sx={{ p: 0, height: '100vh' }}>
+    <Container maxWidth="xl" id="#main" sx={{ p: '0 !important', height: '100vh' }}>
       <Box sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
         <Paper sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
           <Box sx={{ px: 2, pt: 2, pb: 1, flexShrink: 0 }}>
